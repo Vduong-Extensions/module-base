@@ -1,0 +1,24 @@
+@vduong-icons-admin__font-name: 'Vduong Icons';
+@vduong-icons-admin__file-name: 'vduong';
+@vduong-icons-admin__font-name-path: '@{baseDir}Vduong_Base/fonts/@{vduong-icons-admin__file-name}';
+@vduong-icons-data__content: '\e900';
+
+.lib-font-face(
+    @family-name: @vduong-icons-admin__font-name,
+    @font-path: @vduong-icons-admin__font-name-path,
+    @font-weight: normal,
+    @font-style: normal
+);
+
+.admin__menu .item-menu#menu-vduong-base-menu.level-0 > a:before {
+    content: @vduong-icons-data__content;
+    font-family: @vduong-icons-admin__font-name;
+    font-size: 2.3rem;
+}
+
+.vduong-config-tab .title:before {
+    content: @vduong-icons-data__content;
+    font-family: @vduong-icons-admin__font-name;
+    font-size: 1.5rem;
+    padding-top: .2rem;
+}

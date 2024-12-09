@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Vduong_Base::menu"
+             title="Vduong"
+             module="Vduong_Base"
+             sortOrder="20"
+             resource="Vduong_Base::menu"/>
+    </menu>
+</config>

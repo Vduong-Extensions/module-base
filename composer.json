@@ -1,0 +1,27 @@
+{
+  "name": "vduong/module-base",
+  "description": "Vduong Module Base",
+  "require": {
+    "php": "^8.1.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Nguyen Viet Duong",
+      "email": "duongnguyenviet2904@gmail.com",
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Vduong\\Base\\": ""
+    }
+  }
+}
